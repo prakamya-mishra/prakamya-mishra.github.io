@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    
+      
+
+
+
+
+
+
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Prakamya Mishra</title>
+    <!-- <title>Prakamya Mishra Blog</title> -->
+    <meta name="description" content="Documenting my learning notes.">
+
+    <meta content="Prakamya Mishra" property="og:site_name">
+    
+        <meta content="Prakamya Mishra" property="og:title">
+    
+    
+        <meta content="website" property="og:type">
+    
+    
+        <meta content="Documenting my learning notes." property="og:description">
+    
+    
+        <meta content="http://localhost:4000/" property="og:url">
+    
+    
+    
+    
+
+    <link rel="shortcut icon" href="/assets/projects/icon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/css/mystyle.css">
+    <link rel="stylesheet" href="/css/new.css">
+    <link rel="canonical" href="http://localhost:4000/">
+    <script async src="portfolio-filter.js"></script>
+    <script async src="portfolio-filter.js"></script>
+    <script>
+        if(window.location.hash.includes('export')) {
+            document.documentElement.classList.add('export');
+        }
+    </script>
+    <!-- For Latex -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-8161570-6', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- For Facebook share button -->
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Twitter cards -->
+    <meta name="twitter:site"    content="@PrakamyaMishra">
+    <meta name="twitter:creator" content="@Prakamya Mishra">
+    <meta name="twitter:title"   content="">
+
+    
+        <meta name="twitter:description" content="Documenting my learning notes.">
+    
+
+    
+        <meta name="twitter:card"  content="summary">
+        <meta name="twitter:image" content="">
+    
+    <!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner" id='header-bar' style="background: #FFFFFF">
+
+    <div class="wrapper" style="border-bottom: 2px solid #111111">
+        
+        <a class="site-title" href="/" style="color: #111111">Prakamya Mishra</a>
+
+        <!-- <nav class="site-nav">
+            <a class="page-link" href="http://lilianweng.github.io" target="_blank">&#x1f349; About</a>
+        </nav> -->
+        <!-- <nav class="site-nav">
+            <a class="page-link" href="/Blog.html" style="color: #111111; border: 1px solid white;"> Blog</a>
+        </nav>
+        <nav class="site-nav">
+            <a class="page-link" href="/FAQ.html" style="color: #111111; border: 1px solid white;"> FAQ</a>
+        </nav> -->
+        <nav class="site-nav">
+            <a class="page-link" href="#Research" style="color: #111111; border: 1px solid white;"> Research</a>
+        </nav>
+        <nav class="site-nav">
+            <a class="page-link" href="#Projects" style="color: #111111; border: 1px solid white;"> Projects</a>
+        </nav>
+
+        <nav class="site-nav">
+            <a class="page-link" href="/" style="color: #111111; border: 1px solid white;"> About</a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content" style="padding: 15px 0;">
+      <div class="wrapper">
+        </style>
+<div class='other-pages'>
+
+	<img style="object-fit: cover;border-radius: 50%;border: 1px solid #111 !important;" src="/assets/images/profile_photo.png" width="320" height="320">
+
+	<p></p>
+  <p class="intro" style="text-align:justify">Hi! I am Prakamya Mishra. I recently graduated with a bachelor’s degree in Computer Science & Engineering from <a class="link" href="https://snu.edu.in/">Shiv Nadar University</a>, India. Presently, I am working as a Research Assistant at the <a class="link" href="https://bdac.snu.edu.in/about/center">Big Data Analytics Center (BDAC) @ SNU</a> under the guidance of <a class="link" href="https://www.linkedin.com/in/santosh-singh-25764b2/">Santosh Singh</a>. I have worked as a Research Intern at <a class="link" href="https://www.research.ibm.com/labs/india/">IBM Research</a> under the guidance of <a class="link" href="http://www.kuntaldey.com/">Kuntal Dey</a> and <a class="link" href="https://www.cse.iitd.ernet.in/~saroj/">Saroj Kaushik</a>. I also have worked as a Big Data Intern at <a class="link" href="https://www.jio.com/welcome">Reliance Jio</a>. When I am free, I spend most of my time on YouTube & Netflix 🍿, making sketches 🎨, reading books 📚, and trying to spend as much time as possible socializing with friends & family 🕺.</p>
+
+	<p style="text-align:justify">My research interests lie in the intersection of deep learning and natural language especially for spoken language processing, language modeling, and representation learning. Here's my <a class="link" href="/assets/papers/CV.pdf">CV</a>.</p>
+
+	<p style="text-align:justify">If you are interested in working with me, please feel free to contact me on <a class="link" href="https://twitter.com/PrakamyaMishra">Twitter</a> and <a class="link" href="https://www.linkedin.com/in/pkms/">Linkedin</a>. You can also drop me an email at <a class="link" href="mailto:pkms.research@gmail.com">pkms [DOT] research [AT] gmail [DOT] com</a>.</p>
+	
+	<!-- <p>Here are a selection of papers of mine that I especially like:
+		<ol>
+    <li>Prakamya Mishra, Saroj Kaushik, Kuntal Dey <a class="link" href="">"Bi-ISCA: Bidirectional Inter-Sentence Contextual Attention Mechanism for Detecting Sarcasm in User Generated Noisy Short Text"</a>, 	Submitted to EACL 2021.</li>
+    <li>Prakamya Mishra <a class="link" href="">"STEPs-RL: Speech-Text Entanglement for Phonetically Sound Representation Learning"</a>, 	Submitted to EACL 2021.</li>
+    <li>P Mishra & P Mathur <a class="link" href="/assets/papers/2007.02880.pdf">"Contextualized Spoken Word Representations from Convolutional Autoencoders"</a>, 	arXiv:2007.02880 (2020).</li>
+    <li>Jain, S., Mittal, R., Mishra, P., & Sinha, A. <a class="link" href="/assets/papers/11139172.pdf">"Road network mapping from aerial images"</a> Applications of Machine Learning. Vol. 11139. International Society for Optics and Photonics, 2019.</li>
+    </ol> -->
+	</p>
+<!--	<hr>
+         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+                <td style="padding:10px;width:100%;vertical-align:middle">
+                    <heading>Recent Talks</heading>
+                </td>
+            </tr>
+        </tbody></table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+                <ul>
+                    <li>Dec 2019: <b>Towards Robust Defense Against Adversarial Examples &amp Beyond</b>, University of Maryland, College Park</li>
+                    <li>Dec 2019: <b>Adversarial Examples Improve Image Recognition</b>, Google Brain</li>
+                    <li>Sep 2019: <b>Feature Denoising for Improving Adversarial Robustness</b>, VALSE Webinar</li>
+                    <li>Summer 2019: <b>Intriguing Adversarial Examples &amp How To Defend Against Them</b>, UC Berkeley, UC San Diego, UC Davis, UC Merced, Stanford University, Gooole Brain</li>
+                    <li>May 2019: <b>Towards Transferable Adversarial Attacks & Robust Adversarial Defense</b>, Princeton University</li>
+                </ul>
+            </tr>-->
+        <hr style="margin: 0 0"> 
+
+        <table id="Research" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:5px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <tr bgcolor="#D2F0FF">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src='assets/projects/biisca_result.png' width="250"></div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Bi-ISCA: Bidirectional Inter-Sentence Contextual Attention Mechanism for Detecting Sarcasm in User Generated Noisy Short Text</papertitle>
+                </strong>
+                <br>
+                <a href="https://2021.eacl.org/" style="color: #33BBFF"><em><strong>Research Intern IBM Research</strong>| Long paper submitted to EACL 2021</em></a>
+                <br>
+                <strong>Prakamya Mishra</strong>,
+                <a href="https://scholar.google.com/citations?user=6POeyBoAAAAJ&hl=en" style="color: #111">Saroj Kaushik</a>,
+                <a href="http://boqinggong.info/" style="color: #111">Kuntal Dey</a>
+                <br>
+                <br>
+                <font>Developed novel Bi-directional Inter-Sentence Contextual Attention mechanism (Bi-ISCA) to capture inter-sentence dependencies for detecting sarcasm. Explained model behaviors and predictions by analyzing the attention maps and identifying words responsible for invoking sarcasm. </font>
+                <br>
+                <em style="color: #337DFF; font-size: xx-small;">* Available on request. Paper under review.</em>
+                <br>
+                <br>
+                </p>
+                <!-- <div class="paper" id="xie2020advprop">
+                    <a href="https://arxiv.org/pdf/2006.14536.pdf">arxiv</a> /
+                    <a href="https://github.com/cihangxie/SmoothAdversarialTraining">project page</a> /
+                    <a href="data/xie2020advprop.bib">bibtex</a>
+                </div> -->
+            </td>
+
+        </tr> <!--xie2020sat-->
+        
+        <tr bgcolor="#D2F0FF">
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/stepsrl.png' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>STEPs-RL: Speech-Text Entanglement for Phonetically Sound Representation Learning</papertitle>
+                </strong>
+                <br>
+                <a href="https://2021.eacl.org/" style="color: #33BBFF"><em><strong>Independent Research</strong>| Long paper submitted to EACL 2021</em></a>
+                <br>
+                <strong>Prakamya Mishra</strong>
+                <br>
+                <br>
+                <font>Developed STEPs-RL, a novel spoken-word representation learning approach that uses speech and text entanglement for learning semantically, syntactically, and phonetically sound spoken-word representations by capturing acoustic & text-based contextual features. </font>
+                <br>
+                <em style="color: #337DFF; font-size: xx-small;">* Available on request. Paper under review.</em>
+                <br>
+                <br>
+                </p>
+                <!-- <div class="paper" id="li2020shapetexture">
+                    <a href="https://arxiv.org/pdf/2010.05981.pdf">arxiv</a> /
+                    <a href="https://github.com/LiYingwei/ShapeTextureDebiasedTraining">project page</a> /
+                    <a href="data/li2020shapetexture.bib">bibtex</a>
+                </div> -->
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/contextualized.jpg' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Contextualized Spoken Word Representations from Convolutional Autoencoders</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>Undergraduate Research</strong>| Course Project: Deep Learning</em>
+                <br>
+                <strong>Prakamya Mishra</strong>,
+                <a href="https://www.linkedin.com/in/pranav-mathur-16068292/" style="color: #111">Pranav Mathur</a>
+                <br>
+                <br>
+                <font>Developed a convolutional autoencoder based neural architecture to model syntactically and semantically adequate contextualized representations of varying length spoken words.</font>
+                <br>
+                </p>
+                <div class="paper" id="mishra2020contextualized">
+                    <a href="https://arxiv.org/abs/2007.02880">arxiv</a> /
+                    <a href="/assets/papers/Research%20Methods%20in%20Computing.pdf">Presentation</a> /
+                    <a href="/assets/papers/bib/mishra2020contextualized.bib">bibtex</a>
+                </div>
+                <br>
+            </td>
+        </tr> <!--yang2020patchattack-->
+        
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/road.png' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Road Network Mapping from Aerial Images</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>Undergraduate Research</strong>| Published in SPIE Optical Engineering + Applications, 2019</em>
+                <br>
+                <a href="http://www.suchitjain.me/" style="color: #111">Suchit Jain</a>,
+                <a href="https://github.com/rohanmittal73" style="color: #111">Rohan Mittal</a>,
+                <strong>Prakamya Mishra</strong>,
+                <a href="https://in.linkedin.com/in/aakashsinha" style="color: #111">Aakash Sinha</a>
+                <br>
+                <br>
+                <font>Developed road network mapping framework using a random forest model for pixel-wise road segmentation followed by connected component analysis and hough lines method for network extraction from high-resolution aerial images.</font>
+                <br>
+                </p>
+                <div class="paper" id="citation-11139_321">
+                    <a href="https://doi.org/10.1117/12.2529005">Paper</a> /
+                    <a href="https://github.com/prakamya-mishra/Road-Network-Mapping-from-Aerial-Images">Code</a> /
+                    <a href="/assets/papers/bib/citation-11139_321.bib">bibtex</a>
+                </div>
+                <br>
+            </td>
+        </tr> <!--li2019regional-->
+            
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src='assets/projects/correlation.png' width="250"></div>
+            </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Correlated Feature Selection for Tweet Spam Classification</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>Undergraduate Research</strong>| Course Project: Artificial Intelligence</em>
+                <br>
+                <strong>Prakamya Mishra</strong>
+                <br>
+                <br>
+                <font>The purpose of this paper is to undertake the analysis of spamming on Twitter by extracting both tweet-based & user-based features for our analysis and observed the correlation between them. Used DNN to classify tweets as spam with the highest accuracy of 97.57% when compared with four other standard classifiers.</font>
+                <br>
+                </p>
+                <div class="paper">
+                    <a href="/assets/papers/Correlation_Feature_Twitter_Spam.pdf">Paper</a>
+                    <!-- <a href="https://github.com/prakamya-mishra/Road-Network-Mapping-from-Aerial-Images">Code</a> / -->
+                    <!-- <a href="/assets/papers/bib/citation-11139_321.bib">bibtex</a> -->
+                </div>
+                <br>
+            </td>
+        </tr> <!--xie2020advprop-->
+        </tbody></table>
+        
+        <hr style="margin: 20px 0 -10px 0">
+
+
+        <table id="Projects" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Projects</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/htn.jpeg' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Yoogle: Content Based Search Engine for YouTube Videos</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>Spotlight Hacker</strong>| Hack the North 2019, University of Waterloo</em>
+                <br>
+                <strong>Prakamya Mishra</strong>,
+                <a href="https://github.com/sd1998" style="color: #111">Shashwat Kedia</a>,
+                <a href="https://mudit9.github.io/" style="color: #111">Mudit Saexna</a>
+                <br>
+                <br>
+                <font>Developed a Content-Based Youtube video search engine web application. Based on any search query, our app returns videos which actually have contents that are being searched for. It uses state of the art machine learning and AI algorithms to detect various attributes of the video ( for example, all the texts and objects that come up during the video, all the famous celebrities and landmarks etc.)</font>
+                </p>
+                <div class="paper">
+                    <a href="https://devpost.com/software/yoogle-mufh5d">Devpost</a> /
+                    <a href="https://github.com/sd1998/Yoogle">Code</a> /
+                    <a href="https://www.youtube.com/watch?v=N-7ai-6S0J4&t=1s">YouTube Vlog</a>
+                    <!-- <a href="/assets/papers/bib/citation-11139_321.bib">bibtex</a> -->
+                </div>
+                <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/jio.gif' height ="150"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Apache Airflow Integration</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>Big Data Intern at Reliance Jio Infocomm Ltd.</strong></em>
+                <!-- <br> -->
+                <!-- <strong>Prakamya Mishra</strong> -->
+                <br>
+                <font>Integrated Apache Airflow for data workflow management and implemented the LSMR-PM data pipeline in the Jio big data ecosystem. Performed competitor analysis and tests based on security, performance, scalability, fault tolerance, and monitoring.</font>
+                <br>
+                <br>
+                <font>Key tools worked with: Apache Airflow, Apache Spark, Scala, Hadoop, Bash, Python</font>
+                <br>
+                <em style="color: #337DFF; font-size: xx-small;">* Legally cannot share code.</em>
+                <br>
+                </p>
+                <br>
+                <!-- <div class="paper" id="mishra2020contextualized">
+                    <a href="/assets/papers/Correlation_Feature_Twitter_Spam.pdf">Paper</a>
+                    <a href="https://github.com/prakamya-mishra/Road-Network-Mapping-from-Aerial-Images">Code</a> /
+                    <a href="/assets/papers/bib/citation-11139_321.bib">bibtex</a>
+                </div> -->
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/hint.gif' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Smart Luggage: Automatic Follower Bot, Anti-Theft, No GPS, and Real Time</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>Top 20 teams</strong>| Hack in the North 2018, IIIT Allahabad</em>
+                <br>
+                <strong>Prakamya Mishra</strong>,
+                <a href="https://github.com/sd1998" style="color: #111">Shashwat Kedia</a>,
+                <a href="https://mudit9.github.io/" style="color: #111">Mudit Saexna</a>
+                <br>
+                <font>This project aims to make an Automatic Trolley Human Follower for a general or an industrial user that is affordable. The main objective is to reduce the cost yet increase the reliability, provide a viable solution for the old and the disabled. This automatic trolley human follower is controlled by an Arduino, that can follow the user automatically using a combination of ultrasonic range sensors, accelerometer, gyroscope, fingerprint sensor and camera.</font>
+                <br>
+                </p>
+                <div class="paper">
+                    <a href="https://github.com/prakamya-mishra/Bit-Please-HINT18">Code</a> /
+                    <a href="/assets/papers/Smart%20Luggage.pdf">Presentation</a> /
+                    <a href="https://www.youtube.com/watch?v=DHYxtmiw1UE&t=1s">YouTube Video</a>
+                    <!-- <a href="/assets/papers/bib/citation-11139_321.bib">bibtex</a> -->
+                </div>
+                <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/dell.jpeg' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Enterprise Scale Reconciliation Efficiency Improvement</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>Special Mentions</strong>| Hack2Hire by Dell Technologies</em>
+                <br>
+                <strong>Prakamya Mishra</strong>,
+                <a href="https://blog.cvhariharan.me/" style="color: #111">C V Hariharan</a>
+                <br>
+                <font>Developed a full-stack web application to improve the efficiency of reconciliation in the Dell warehousing ecosystem. Client side webapp to facilitated order placing process, and another for warehouse'(slaves) inventory and enterprise side admin(Master) inventory and order tracking. Backend implementation is done using Blockchain technology with DPOS to ensure immutability.
+                </font>
+                <br>
+                </p>
+                <div class="paper">
+                    <a href="https://github.com/prakamya-mishra/2018-SNUHACK-AUTUMN">Code</a> /
+                    <a href="/assets/papers/Pitch.pdf">Presentation</a>
+                </div>
+                <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/mars.png' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Project M.A.R.S: Music App Recommendation System</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong></strong>Course Project: Object Oriented Programming in Java</em>
+                <br>
+                <a href="https://github.com/arpanjain97" style="color: #111">Arpan Jain</a>,
+                <a href="https://github.com/rohanmittal73" style="color: #111">Rohan Mittal</a>,
+                <strong>Prakamya Mishra</strong>,
+                <a href="https://www.linkedin.com/in/pranav-mathur-16068292/" style="color: #111">Pranav Mathur</a>,
+                <a href="https://www.linkedin.com/in/vimanyu-devgan-b72107142/" style="color: #111">Vimanyu Devgan</a>
+                <br>
+                <font>The purpose of this paper is to undertake the analysis of spamming on Twitter by extracting both tweet-based & user-based features for our analysis and observed the correlation between them. Used DNN to classify tweets as spam with the highest accuracy of 97.57% when compared with four other standard classifiers.</font>
+                <br>
+                </p>
+                <div class="paper">
+                    <a href="https://github.com/prakamya-mishra/M.A.R.S">Code</a>
+                    <!-- <a href="https://github.com/prakamya-mishra/Road-Network-Mapping-from-Aerial-Images">Code</a> / -->
+                    <!-- <a href="/assets/papers/bib/citation-11139_321.bib">bibtex</a> -->
+                </div>
+                <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/hackdata.gif' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Smart Bin that Automatically Segregates Biodegradable/Non-Biodegradable Waste</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>Winner</strong>| HackData 2017, SNU</em>
+                <br>
+                <strong>Prakamya Mishra</strong>,
+                <a href="https://raman1121.github.io/portfolio/about/" style="color: #111">Raman Dutt</a>,
+                <a href="https://mudit9.github.io/" style="color: #111">Mudit Saexna</a>
+                <br>
+                <font>Developed a prototype smart bin that classifies waste into biodegradable and non-biodegradable using an image classification neural network model, Arduino servo motor, camera, and analytical website for waste segregation analysis using Firebase in the backend.</font>
+                <br>
+                </p>
+                <div class="paper">
+                    <a href="https://github.com/prakamya-mishra/Hackdata">Code</a> /
+                    <a href="/assets/papers/Hack%20Data%20Pitch%20Final.pdf">Presentation</a>
+                    <!-- <a href="https://github.com/prakamya-mishra/Road-Network-Mapping-from-Aerial-Images">Code</a> / -->
+                    <!-- <a href="/assets/papers/bib/citation-11139_321.bib">bibtex</a> -->
+                </div>
+                <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/aima.gif' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>AIMACODE: Artificial Intelligence — A Modern Approach</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>Open Source Contributor</strong>| Repository: aima-javascript</em>
+                <br>
+                <!-- <strong>Prakamya Mishra</strong>
+                <br> -->
+                <font>Developed web-based visualizations of the N-gram model, text classification model, and IR scoring function using JavaScript for the natural language processing chapter of the book: Artificial Intelligence a Modern Approach by Russel and Norvig.</font>
+                <br>
+                </p>
+                <div class="paper">
+                    <a href="https://github.com/aimacode/aima-javascript">Code</a>
+                    <!-- <a href="https://github.com/prakamya-mishra/Road-Network-Mapping-from-Aerial-Images">Code</a> / -->
+                    <!-- <a href="/assets/papers/bib/citation-11139_321.bib">bibtex</a> -->
+                </div>
+                <br>
+            </td>
+        </tr>
+
+        </tbody></table>
+
+        <hr style="margin: 20px 0 -10px 0">
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Talk</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:top">
+                <img src='assets/projects/talk_web.png' width="250"></div>
+                    </div>
+                    </td>
+            <td width="75%" valign="middle">
+                <p style="margin-block-end:0;margin-block-start:0;">
+                <strong>
+                    <papertitle>Introduction to Web Wevelopment</papertitle>
+                </strong>
+                <br>
+                <em style="color: #33BBFF"><strong>ACM-SNU Chapter</strong></em>
+                <br>
+                <!-- <strong>Prakamya Mishra</strong>
+                <br> -->
+                <font>After having contributed to several university wide projects, I was invited to give a talk to the juniors of Shiv Nadar University at ACM-SNU Chapter web developmennt workshop. Talked about my basics of OSS, and especially how to use Git and Github. Introduced web development technologies like HTML, CSS, Bootstra and Javascript.</font>
+                <br>
+                </p>
+                <div class="paper">
+                    <a href="/assets/papers/WebDev%20ACM.pdf">Presentation</a>
+                    <!-- <a href="https://github.com/prakamya-mishra/Road-Network-Mapping-from-Aerial-Images">Code</a> / -->
+                    <!-- <a href="/assets/papers/bib/citation-11139_321.bib">bibtex</a> -->
+                </div>
+            </td>
+        </tr>
+
+        </tbody></table>
+        <hr style="margin: 20px 0 20px 0">
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td width=100% align="center">
+              <a href="https://clustrmaps.com/site/1bdzy" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=l_T1SbzAOKRERiRkO-ZvA1o0wvorGjiu1LXuagoYWDE&co=000000" /></a>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+
+<script xml:space="preserve" language="JavaScript">
+hideallbibs();
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-131560165-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+	<!-- <p>Fun fact: my name in Chinese character is "荔", which means <a href="https://en.wikipedia.org/wiki/Lychee" target="_blank">lychee</a>, a type of fruit popular in southeastern China.</p> -->
+
+	<!-- <p style="color: #aaaaaa; font-size: 85%;">I snack a lot while writing my blogs. Well, it is actually more like, no snack no will power. If you enjoy my posts, I wouldn't mind for 1-3 dollars donation to my venmo account <a href="https://venmo.com/lilianweng" target="_blank">@lilianweng</a>, so I can buy more <a href="https://www.instagram.com/p/CAd9qnMD4Ps/" target="_blank">chips</a> :P</p> -->
+</div>
+
+      </div>
+    </main>
+
+    <div style="clear: both;"/>
+<footer class="site-footer">
+    2020 &copy; Built by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/jekyll/minima/" target="_blank">minima</a> | Stolen design and source code from <a href="https://github.com/lilianweng/lil-log/tree/gh-pages" target="_blank">Lilian Weng's</a> & <a href="https://jonbarron.info/">Jon Barron's</a> websites. <!--| <a href="/tags.html">Tags</a> | <a href="/Blog.html">Blog</a> | <a href="/FAQ.html">FAQ</a> -->
+
+    <p>
+        <!--<a href="//feed.xml" target="_blank">
+            <img src="/assets/images/logo_rss.png" />
+        </a>-->
+        <a href="https://scholar.google.co.in/citations?user=Jd6lxYAAAAAJ&hl=en" target="_blank">
+            <img src="/assets/icon/scholar.png" />
+        </a>
+        <a href="https://github.com/prakamya-mishra" target="_blank">
+            <img src="/assets/icon/github.png" />
+        </a>
+        <a href="https://www.linkedin.com/in/pkms/" target="_blank">
+            <img src="/assets/icon/linkedin.png" />
+        </a>
+        <a href="https://twitter.com/PrakamyaMishra" target="_blank">
+            <img src="/assets/icon/twitter.png" />
+        </a>
+    </p>
+</footer>
+
+
+  </body>
+
+</html>
