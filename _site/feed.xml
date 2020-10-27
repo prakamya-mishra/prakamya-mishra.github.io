@@ -1,1 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-26T08:43:55+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Prakamya Mishra</title><subtitle>Documenting my learning notes.</subtitle><author><name>Prakamya Mishra</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-27T21:11:56+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Prakamya Mishra</title><subtitle>Prakamya Mishra Blog.</subtitle><author><name>Prakamya Mishra</name></author><entry><title type="html">Language Modeling in 2020</title><link href="http://localhost:4000/2020/10/27/language-models.html" rel="alternate" type="text/html" title="Language Modeling in 2020" /><published>2020-10-27T05:30:00+05:30</published><updated>2020-10-27T05:30:00+05:30</updated><id>http://localhost:4000/2020/10/27/language-models</id><content type="html" xml:base="http://localhost:4000/2020/10/27/language-models.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this post, we are going to look deep into language modeling, why it works, and many new language models proposed in recent years: Elmo, GPT, BERT, Varients of BERT, Transformer-XL, Longformer, and GPT-3. I will end the post by giving my take on what we can expect in the future of language modeling.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--more--&gt;
+
+
+&lt;!-- ## What is language modeling?
+
+### History
+
+## Language models
+
+### ELMo
+
+### GPT
+
+### BERT
+
+### Transformer-XL
+
+### Longformer
+
+### GPT-3
+
+## My take on future of language modeling
+
+---
+
+Cited as:
+```
+@article{prakamya2020LG,
+  title   = &quot;Language Modeling in 2020&quot;,
+  author  = &quot;Prakamya Mishra&quot;,
+  journal = &quot;prakamya-mishra.github.io/Blog&quot;,
+  year    = &quot;202020&quot;,
+  url     = &quot;https://prakamya-mishra.github.io/Blog/2020/10/27/language-models.html&quot;
+}
+```
+
+ --&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Posts comming soon.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Prakamya Mishra</name></author><category term="natural-language-processing" /><category term="review" /><summary type="html">Abstract: In this post, we are going to look deep into language modeling, why it works, and many new language models proposed in recent years: Elmo, GPT, BERT, Varients of BERT, Transformer-XL, Longformer, and GPT-3. I will end the post by giving my take on what we can expect in the future of language modeling.</summary></entry></feed>

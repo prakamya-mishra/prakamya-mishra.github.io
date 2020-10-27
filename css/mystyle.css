@@ -10,6 +10,23 @@ div.wrapper{
 	border-bottom: 2ps solid #111111;
 }
 
+.post-banner{
+	border-radius: 7px;
+}
+
+blockquote{
+	background: #EEF9FF;
+	color: black;
+}
+
+pre.highlight{
+	background: #F5F5F5;
+	border-color: #E2E2E2;
+}
+
+code{
+	background: #F5F5F5;
+}
 /*p.intro{
 	font-size: small;
 }*/
