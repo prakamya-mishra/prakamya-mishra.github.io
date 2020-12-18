@@ -43,6 +43,8 @@ The main aim of this sections is to describe different works that have already h
 
 [Joshi, Aditya, Vinita Sharma, and Pushpak Bhattacharyya. (2015)](https://www.aclweb.org/anthology/P15-2124.pdf) presented a computational system that harnesses context incongruity as a basis for sarcasm detection. They used four kinds of features: (a) Lexical, (b) Pragmatic, (c) Implicit congruity, and (d) Explicit incongruity features. Their main contribution was to introduce inter-sentential incongruity for sarcasm detection, which expanded the context of a discussion forum post by including the previous post in the discussion thread.
 
+[Rajadesingan, A., Zafarani, R., & Liu, H. (2015)](https://doi.org/10.1145/2684822.2685316) addressed sarcasm detection on Twitter by leveraging behavioral traits intrinsic to users expressing sarcasm. They identified such traits using the user’s past tweets. They employ theories from behavioral and psychological studies to construct a behavioral modeling framework tuned for detecting sarcasm. They also identified different sorts of sarcasm and demonstrated how these forms are manifested on Twitter. They introduced behavioral modeling as a replacement, effective approach for detecting sarcasm on Twitter.
+
 ![amir2016modelling]({{ '/assets/Blog/Blog1/amir2016modelling.png'| relative_url }})
 {: style="width: 100%;" class="center"}
 *Fig. 1.  Illustration of the CUE-CNN model for sarcasm detection. The model learns to represent and exploit embeddings of both content and users in social media. [Amir, Silvio, et al. (2016)](https://www.aclweb.org/anthology/K16-1017.pdf)*
@@ -62,7 +64,7 @@ The main aim of this sections is to describe different works that have already h
 
 [Ghosh, Aniruddha, and Tony Veale. (2017)](https://www.aclweb.org/anthology/D17-1050.pdf) showed significant gains using neural architecture in sarcasm detection accuracy when knowledge of the speaker’s mood at the time of production could be inferred. They show that the mood exhibited by a speaker over tweets leading up to a new post is as useful a clue for sarcasm as the topical context of the post itself. They build a model by adding input features for the psychological profile of the author and the context of the tweet to those for the tweet itself.
 
-[Prasad, Anukarsh G., et al. (2017) (2017)](https://ieeexplore.ieee.org/document/8169892) compare various classification algorithms such as Random Forest, Gradient Boosting, Decision Tree, Adaptive Boost, Logistic Regression, and Gaussian Naïve Bayes to detect sarcasm in tweets. The best classifier was paired with various pre-processing and filtering techniques using emoji and slang dictionary mapping to provide the best possible accuracy. Their main contribution was to use emoji and slang dictionaries for analyzing the true intentions/sentiments of the tweets.
+[Prasad, Anukarsh G., et al. (2017)](https://ieeexplore.ieee.org/document/8169892) compare various classification algorithms such as Random Forest, Gradient Boosting, Decision Tree, Adaptive Boost, Logistic Regression, and Gaussian Naïve Bayes to detect sarcasm in tweets. The best classifier was paired with various pre-processing and filtering techniques using emoji and slang dictionary mapping to provide the best possible accuracy. Their main contribution was to use emoji and slang dictionaries for analyzing the true intentions/sentiments of the tweets.
 
 ![hazarika-etal-2018-cascade-1]({{ '/assets/Blog/Blog1/hazarika-etal-2018-cascade-1.png'| relative_url }})
 {: style="width: 100%;" class="center"}
@@ -73,8 +75,6 @@ The main aim of this sections is to describe different works that have already h
 *Fig. 5.   Overall hybrid network of CASCADE. [Hazarika, Devamanyu, et al. (2018)](https://www.aclweb.org/anthology/C18-1156.pdf)*
 
 [Hazarika, Devamanyu, et al. (2018)](https://www.aclweb.org/anthology/C18-1156.pdf) proposed CASCADE that utilizes a composite method of both content and context-based modeling for sarcasm detection in the online discussion forum Reddit. CASCADE uses user embeddings that encode the stylometric and character traits of the users. When used alongside content-based feature extractors like Convolutional Neural Networks (CNNs), they saw a big boost within the classification performance on an outsized Reddit corpus.
-
-[Rajadesingan, A., Zafarani, R., & Liu, H. (2015)](https://ashwinrajadesingan.com/files/SarcasmDetection.pdf) addressed sarcasm detection on Twitter by leveraging behavioral traits intrinsic to users expressing sarcasm. They identified such traits using the user’s past tweets. They employ theories from behavioral and psychological studies to construct a behavioral modeling framework tuned for detecting sarcasm. They also identified different sorts of sarcasm and demonstrated how these forms are manifested on Twitter. They introduced behavioral modeling as a replacement, effective approach for detecting sarcasm on Twitter.
 
 ![pamungkas-patti-2018-nondicevosulserio]({{ '/assets/Blog/Blog1/pamungkas-patti-2018-nondicevosulserio.png'| relative_url }})
 {: style="width: 100%;" class="center"}
@@ -101,6 +101,24 @@ Cited as:
   url     = "https://prakamya-mishra.github.io/Blog/2020-11-24-AI-Sarcasm.html"
 }
 ```
+
+## References
+
+[1] Joshi, Aditya, Vinita Sharma, and Pushpak Bhattacharyya ["Harnessing Context Incongruity for Sarcasm Detection"](https://www.aclweb.org/anthology/P15-2124.pdf) ACL-IJCNLP 2015.
+
+[2] Rajadesingan, A., Zafarani, R., & Liu, H. (2015) ["Sarcasm Detection on Twitter: A Behavioral Modeling Approach"](https://doi.org/10.1145/2684822.2685316) WSDM 2015.
+
+[3] Amir, Silvio, et al. (2016) ["Modelling Context with User Embeddings for Sarcasm Detection in Social Media"](https://www.aclweb.org/anthology/K16-1017.pdf) SIGNLL 2016.
+
+[4] Ghosh, D., Fabbri, A. R., & Muresan, S. (2017) ["The Role of Conversation Context for Sarcasm Detection in Online Interactions"](https://www.aclweb.org/anthology/W17-5523.pdf) SIGNLL 2017.
+
+[5] Ghosh, Aniruddha, and Tony Veale. (2017) ["Magnets for Sarcasm: Making Sarcasm Detection Timely, Contextual and Very Personal"](https://www.aclweb.org/anthology/D17-1050.pdf) SIGDAT 2017.
+
+[6] Prasad, Anukarsh G., et al. (2017) ["Sentiment analysis for sarcasm detection on streaming short text data"](https://ieeexplore.ieee.org/document/8169892) ICKEA 2017.
+
+[7] Hazarika, Devamanyu, et al. (2018) ["CASCADE: Contextual Sarcasm Detection in Online Discussion Forums"](https://www.aclweb.org/anthology/C18-1156.pdf) COLING 2018.
+
+[8] Pamungkas, Endang Wahyu, and Viviana Patti. (2020) ["#NonDicevoSulSerio at SemEval-2018 Task 3: Exploiting Emojis and Affective Content for Irony Detection in English Tweets"](https://www.aclweb.org/anthology/S18-1106.pdf) SemEval 2018.
 
 
 <!-- 
