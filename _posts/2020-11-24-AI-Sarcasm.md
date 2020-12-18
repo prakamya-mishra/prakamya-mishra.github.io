@@ -83,7 +83,7 @@ The main aim of this sections is to describe different works that have already h
 [Pamungkas, Endang Wahyu, and Viviana Patti. (2020)](https://www.aclweb.org/anthology/S18-1106.pdf) proposed to use various stylistic characteristics and utilized different affective means to tackle these tasks. They concentrated on two main tasks, Task A: whether a tweet was sarcastic or not? and Task B: Classifying tweets into various kinds of sarcasm. They conducted experiments using a support vector machine classifier, with a radial basis function kernel. They used architectural features and affective based features. Architectural features consisted of lexical and syntactical features that characterize Twitter data.
 
 
-## Why is the present AI incapable of properly understanding sarcasm?
+## Why the present AI models are incapable of understanding sarcasm properly?
 
 As mentioned above, sarcasm is complex in nature and usually it is implied and not explicit. That's why most of the present works use some kind of context to capture their implied meaning. Here is where the present AI models have reached a bottleneck because mostly all of them are focusing on local contextual features like immediate reply or comment. This narrows the vision of the present AI models. Most of the time the actual context required for detecting sarcasm in a sentence might come from recent events in the society or from some general knowledge, which might not be captured by focusing only on local immediate context.
 
@@ -98,7 +98,7 @@ Cited as:
   author  = "Prakamya Mishra",
   journal = "prakamya-mishra.github.io/Blog",
   year    = "2020",
-  url     = "https://prakamya-mishra.github.io/Blog/2020-11-24-Blog-1.html"
+  url     = "https://prakamya-mishra.github.io/Blog/2020-11-24-AI-Sarcasm.html"
 }
 ```
 
