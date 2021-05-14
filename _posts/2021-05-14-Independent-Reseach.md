@@ -6,7 +6,7 @@ date: 2021-05-14 00:00:00
 tags: personal
 ---
 
-> **Abstract:** What is it Independent Research? What does it take to do it? Where to start? Why would you do it? Why won’t you do it? and How to publish it?” In this post I would like to answer these questions and share my experience, insights and advice on working as an independent researcher.  
+> **Abstract:** What is Independent Research? What does it take to do it? Where to start? Why would you do it? Why won’t you do it? and How to publish it?” In this post I would like to answer these questions and share my experience, insights and advice on working as an independent researcher.  
 
 
 <!--more-->
