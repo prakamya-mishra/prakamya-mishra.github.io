@@ -17,9 +17,9 @@ tags: personal
 
 ---
 
-![PAKDD2021paper]({{ '/assets/Blog/Blog2_1.jpeg'| relative_url }})
-{: style="width: 80%;" class="center"}
-*Fig. 1. The night I submitted my PAKDD 2021 paper*
+![PAKDD2021paper]({{ '/assets/Blog/Blog2.jpeg'| relative_url }})
+{: style="width: 80%; border-radius: 10px;" class="center"}
+<div align="center">Fig. 1. The night I submitted my PAKDD 2021 paper</div>
 
 ## Summary
 
