@@ -31,7 +31,7 @@ It was a great experience with lots of ups & downs, learning, uncertainties, sel
 
 ![PAKDD2021paper]({{ '/assets/Blog/20191202_041603_0.jpg'| relative_url }})
 {: style="width: 100%; border-radius: 10px;" class="center"}
-<div align="center">Fig. 2: I always make sure that my setup has an extra monitor. Basically, I use the monitor for reading papers/blogs and my mac for implementing stuff. Also, I do most of my work during the night so that I don't get distracted from anything (friends, family, social media, etc.).</div>
+<div align="center">Fig. 2: I always make sure that my setup has an extra monitor. Basically, I use the monitor for reading papers/blogs and my mac for implementing stuff. Also, I do most of my work during the night so that I don't get distracted from anything (friends, family, social media, etc.).</div><br><br>
 
 Somewhere during my undergraduate, I fell in love with the field of artificial intelligence and wanted to pursue my higher education specializing in this field. Recently, to get an admit from one of the top universities for graduate studies especially in the field of computer science is very very tough, and it becomes tougher if you want to specialize in the field of artificial intelligence. Due to such an exorbitant competition, you would want to have something in your profile that outshines other applicants and shows your contribution to the field. This might not sound good but it’s the truth, the competition is tougher than ever.
 
@@ -44,13 +44,13 @@ Though I had made up my mind to do some kind of research in the field of artific
 
 ![PAKDD2021paper]({{ '/assets/Blog/models.png'| relative_url }})
 {: style="width: 100%; border-radius: 10px;" class="center"}
-<div align="center">Fig. 3: These are some of the early-stage model architecture ideas for solving different research problems. Sometimes randomly I get some ideas and so I make sure to document them immediately.</div>
+<div align="center">Fig. 3: These are some of the early-stage model architecture ideas for solving different research problems. Sometimes randomly I get some ideas, so I make sure to document them immediately.</div><br><br>
 
 After graduating, I had to defer my plans for pursuing a master's last year due to COVID-19. Yup, it was a bummer but what else you can do. During the same time, I was also dealing with some other stuff in my personal life. Long story short, in August, instead of taking up a job, I decided to take a year off to work on whatever I liked. Obviously, I was interested in doing some research I liked, but the problem with doing any kind of research this time was that I had no guidance from any professors, which made it very difficult to narrow down on ideas to work on. This was the first time I had to decide my research topic totally on my own.
 
 ![PAKDD2021paper]({{ '/assets/Blog/51f3tv.jpeg'| relative_url }})
 {: style="width: 50%; border-radius: 10px;" class="center"}
-<div align="center">Fig. 4: Trust me and start reading Attack on Titan manga (Totaly recommend reading manga and listning to AOT OST).</div>
+<div align="center">Fig. 4: Trust me and start reading Attack on Titan manga (Totaly recommend reading manga and listning to AOT OST).</div><br><br>
 
 Anyways, one day I was watching the latest episode of Attack on Titans (anime), and a random idea came to my mind: “What if I could translate the audio from one language (Japanese) to another (English) without losing the tone expression, accent, mode of delivery...etc, which would make it more interesting to watch animes in other languages and also eliminate the need to see subtitles.”. This idea fascinated me a lot and decied to work on it. Immediately after fixing my research idea, I also decided a target conference workshop of a premium NLP conference (NLPBT workshop @ EMNLP 2020) where I would like to submit my research paper. Since this time there was no professor to report to (contrary to my undergraduate research), choosing a target conference was really important so that I could work without slacking and in a disciplined manner. 
 
@@ -60,18 +60,18 @@ The main problem while working independently is that you can stop working anytim
 
 ![PAKDD2021paper]({{ '/assets/Blog/tweet.png'| relative_url }})
 {: style="width: 50%; border-radius: 10px;" class="center"}
-<div align="center">Fig. 5: Ahh, don't even get me start! Processing power for working on SOTA AI research will always be the primary problem you will face during your undergraduate studies. So imagine working completly indepently without any funding in the field.</div>
+<div align="center">Fig. 5: Ahh, don't even get me start! Processing power for working on SOTA AI research will always be the primary problem you will face during your undergraduate studies. So imagine working completly indepently without any funding in the field.</div><br><br>
 
 Things started to become more frustrating when I started scaling up the dataset. Since I had no resources and no one was supporting me, at max, I was able to use google collab free services, which proved to be not sufficient for my proposed model. This was the point where I was stuck for weeks. Although I faced problems before this where I could have stopped the project, this one felt beyond my ability to solve. I seriously stopped working on this project for a week or so. During this break, I was subconsciously still thinking of how I could make things work and started reading a few more blogs/papers on how to experiment with large models using limited resources. Fianally, I was successfully able to find some way around to train my model on google collab. Within another two months, I was successfully able to complete all the experiments and write a paper. I rushed it at the end, but actually writing the paper atleast took me around two-three weeks. It could have been more but I guess my undergraduate research experience helped me alot. It was not the first time that I was writing a paper, but it was definetly the first time that I was writing apaper without any guidance from an eperienced professor or researcher. Anyways, I believe I did a reseaonable job to write a decent paper.
 
 ![PAKDD2021paper]({{ '/assets/Blog/nlpbtreview.png'| relative_url }})
 {: style="width: 80%; border-radius: 10px;" class="center"}
-<div align="center">Fig. 6: NLPBT 2021 (EMNLP workshop) reviews.</div>
+<div align="center">Fig. 6: NLPBT 2021 (EMNLP workshop) reviews.</div><br><br>
 
 Finally, I successfully submitted my paper to the target conference workshop. A month later I received an email from the workshop that my paper was rejected. Although the paper was rejected, my work received some really good feedback with a borderline rejection. To me this meant that my paper had a really good chance of getting accepted if I worked on those feedbacks. So I took it all positively and worked on those changes. Next time, I submitted the revised version to a premium conference (EACL 2020) as a long paper, but it again recieved borderline rejection. They also gave some good feedback on my work along with suggestions to improve but this time it was a bit different. Not only that my paper was a long paper for the main conference instead of a workshop, but also two out of three reviewers accepted the paper with a 4 out of 5 ratings ( last time all the reviewers gave a rating of 3). This improvement encouraged me to further work on those suggestions. After making all the desired changes, I submitted the final version of my paper to PAKDD 2021, and guess what?... a month later I received the acceptance mail of my paper to the main conference with an oral presentation. That day I officially became an Independent researcher.
 
-![PAKDD2021paper]({{ '/assets/Blog/tweet.png'| relative_url }})
-{: style="width: 50%; border-radius: 10px;" class="center"}
+![PAKDD2021paper]({{ '/assets/Blog/PAKDDMail.png'| relative_url }})
+{: style="width: 70%; border-radius: 10px;" class="center"}
 <div align="center">Fig. 7: PAKDD 2021 Paper acceptance mail.</div>
 
 ## Insights from my Research Experience
