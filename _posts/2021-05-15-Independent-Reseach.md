@@ -124,7 +124,7 @@ I would like to conclude this article by saying that before all this, I never kn
 
 Cited as:
 ```
-@article{prakamya2020IndependentResearch,
+@article{prakamya2021IndependentResearch,
   title   = "Starting as an Independent Researcher to publishing at a Major Conference! Experience, Insights & Advice",
   author  = "Prakamya Mishra",
   journal = "prakamya-mishra.github.io/Blog",
