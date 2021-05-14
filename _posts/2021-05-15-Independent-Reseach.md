@@ -17,9 +17,13 @@ tags: personal
 
 ---
 
+![PAKDD2021paper]({{ '/assets/Blog/Blog2_1.jpeg'| relative_url }})
+{: style="width: 80%;" class="center"}
+*Fig. 1. The night I submitted my PAKDD 2021 paper*
+
 ## Summary
 
-Last year on 29 August, I decided to start working on an independent research project, and earlier this month I published a paper on that same project at PAKDD, one of the major conferences of the field. Yup, that's right! It's completely possible to do independent research at the undergraduate level and publish a paper in one of the top conferences without any guidance, support, and funding.
+Last year on 29 August, I decided to start working on an independent research project, and earlier this month I published a paper on that same project at PAKDD 2021, one of the major conferences of the field. Yup, that's right! It's completely possible to do independent research and publish a paper in one of the top conferences without any guidance, support, and funding.
 
 It was a great experience with lots of ups & downs, learning, uncertainties, self-doubt, frustration, freedom, and most importantly satisfaction. At this point, I feel it's fair enough to say that I have some insight about doing independent research… “What is it? What does it take to do it? Where to start? Why would you do it? Why won’t you do it? and How to publish it?”... Through this article, I would like to answer these questions and share my experience, insights, and advice on working as an independent researcher. 
 
@@ -36,7 +40,7 @@ Though I had made up my mind to do some kind of research in the field of artific
 
 After graduating, I had to defer my plans for pursuing a master's last year due to COVID-19. Yup, it was a bummer but what else you can do. During the same time, I was also dealing with some other stuff in my personal life. Long story short, in August, instead of taking up a job, I decided to take a year off to work on whatever I liked. Obviously, I was interested in doing some research I liked, but the problem with doing any kind of research this time was that I had no guidance from any professors, which made it very difficult to narrow down on ideas to work on. This was the first time I had to decide my research topic totally on my own.
 
-Anyways, one day I was watching the latest episode of Attack on Titans (anime), and a random idea came to my mind: “What if I could translate the audio from one language (Japanese) to another (English) without losing the tone expression, accent, mode of delivery...etc, which would make it more interesting to watch animes in other languages and also eliminate the need to see subtitles.”. This idea fascinated me a lot and decied to work on it. Immediately after fixing my research idea, I also decided a target conference workshop (at EMNLP 2020: Premium NLP conference) where I would submit my research paper. Since this time there was no professor to report to, choosing a target conference was really important so that I could work without slacking and in a disciplined manner. 
+Anyways, one day I was watching the latest episode of Attack on Titans (anime), and a random idea came to my mind: “What if I could translate the audio from one language (Japanese) to another (English) without losing the tone expression, accent, mode of delivery...etc, which would make it more interesting to watch animes in other languages and also eliminate the need to see subtitles.”. This idea fascinated me a lot and decied to work on it. Immediately after fixing my research idea, I also decided a target conference workshop of a premium NLP conference (NLPBT workshop @ EMNLP 2020) where I would like to submit my research paper. Since this time there was no professor to report to (contrary to my undergraduate research), choosing a target conference was really important so that I could work without slacking and in a disciplined manner. 
 
 Now that I had my idea and a target conference, all I needed to do was to work on it. I started by dividing the research problem into sub-parts and reading about all the existing works. It took me around two-three weeks to get a complete picture of all the eisting works related to this topic. I didn’t stop reading here, but I had a good understanding of the existing works. Next month, I was  busy designing and implementing data preprocessing pipelines, different model architectures, and evaluation metrics. Every other night I used to get stuck into either some bug or some disappointing result. It might sound super easy to implement stuff, but it really isn’t. 
 
