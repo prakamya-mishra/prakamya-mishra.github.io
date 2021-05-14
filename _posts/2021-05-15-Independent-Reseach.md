@@ -17,9 +17,9 @@ tags: personal
 
 ---
 
-![PAKDD2021paper]({{ '/assets/Blog/Blog2.jpeg'| relative_url }})
+![PAKDD2021paper]({{ '/assets/Blog/20200125_092320_0.jpg'| relative_url }})
 {: style="width: 80%; border-radius: 10px;" class="center"}
-<div align="center">Fig. 1. The night I submitted my PAKDD 2021 paper</div>
+<div align="center">Fig. 1: 8 May 2021, I officially became an independent researcher publishing a single author long paper at PAKDD 2021 [Acceptance Rate < 20%]. I always wanted to do something that had some “real” impact on society, and to be doing research on real-world problems was the best way I could have had some kind of “real” impact (during your undergraduate studies). This is how I got involved with research from my first year.</div>
 
 ## Summary
 
