@@ -84,7 +84,7 @@ After making all the desired changes, I submitted the final version of my paper 
 
 ![PAKDD2021paper]({{ '/assets/Blog/types_of_scientific_paper.png'| relative_url }})
 {: style="width: 50%; border-radius: 10px;" class="center"}
-<div align="center">Fig. 9: Sometimes papers with highly complicated titles are the easiest to understand somtimes papers with stupid titles are the toughest.</div><br><br>
+<div align="center">Fig. 9: Sometimes papers with highly complicated titles are the easiest to understand, and somtimes papers with stupid titles are the toughest.</div><br><br>
 
 
 1. Usually, early undergrads are scared of doing research, and they think it is some “hi-fi” stuff that requires a lot of prerequisite knowledge. Let me break it to you, it is not entirely true. Of Course, it requires you to have some basics, but that is enough for you to start. One can read about things as and when they are required. For example, in the case of machine learning, If you are sound with the basics of python programming, linear algebra, and probability & statistics, then you are good to go. Even if the research idea you decided to work on requires you to know about something that you are unfamiliar with, then also don’t get scared and quit the project. You can easily grasp the required knowledge in a matter of months, and to do this I would advise you to read different papers and blogs about it. Reading papers might be daunting at first but, in my experience that is the best thing you can do to increase the quality of your research. Reading papers not only help you in gaining knowledge about the concepts involved, but also helps you to get familiar with the jargon, the style of writing a scientific paper, and the steps of conducting your experiments.
@@ -102,7 +102,7 @@ After making all the desired changes, I submitted the final version of my paper 
 
 ![PAKDD2021paper]({{ '/assets/Blog/conv.png'| relative_url }})
 {: style="width: 80%; border-radius: 10px;" class="center"}
-<div align="center">Fig. 10: I use twitter almost all the time, and I have recommended this to many of my friends. It is the best place where you can get all kind of information re garding your field, ranging from latest news to intense discussions.</div><br><br>
+<div align="center">Fig. 10: I use twitter almost all the time, and I have recommended this to many of my friends. It is the best place where you can get all kind of information regarding your field, ranging from latest news to intense discussions.</div><br><br>
 
 7. Use Twitter and Reddit not just for memes but also for staying up-to-date about recent advances in your field. Try following all the researchers, research labs, and companies of your interest. This would not only keep you updated with the resect research works but also you would be able to learn some new things from the discussions between these researchers online. Similar discussions can be found happening in different subreddits like r/MachineLearning. You don't need to read about everything, but you can briefly look over what's happing in your domain.
 
@@ -124,7 +124,7 @@ I would like to conclude this article by saying that before all this, I never kn
 
 Cited as:
 ```
-@article{prakamya2020AIsarcasm,
+@article{prakamya2020IndependentResearch,
   title   = "Starting as an Independent Researcher to publishing at a Major Conference! Experience, Insights & Advice",
   author  = "Prakamya Mishra",
   journal = "prakamya-mishra.github.io/Blog",
