@@ -55,7 +55,55 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='resources/scaling_perf_instruct.png' width=110%>
+        </div>
+        <script type="text/javascript">
+          function smerf_start() {
+            document.getElementById('smerf_image').style.opacity = "1";
+          }
 
+          function smerf_stop() {
+            document.getElementById('smerf_image').style.opacity = "0";
+          }
+          smerf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://rocm.blogs.amd.com/artificial-intelligence/introducing-instella-3B/README.html">
+          <span class="papertitle">Introducing Instella: New State-of-the-art Fully Open 3B Language Models</span>
+        </a>
+        <br>
+	      <a href="https://scholar.google.com/citations?user=IbeXR9cAAAAJ&hl=en">Jiang Liu*</a>,
+	      <a href="https://scholar.google.com/citations?user=6Abc8OgAAAAJ&hl=en">Jialian Wu*</a>,
+	      <a href="https://scholar.google.com/citations?user=nmyIoRMAAAAJ&hl=en">Xiaodong Yu*</a>
+    	      <strong>Prakamya Mishra*</strong>,
+	      <a href="https://scholar.google.com/citations?user=NC37bwwAAAAJ&hl=en">Sudhanshu Ranjan*</a>,
+	      <a href="https://scholar.google.com/citations?user=bkALdvsAAAAJ&hl=en">Zicheng Liu*</a>
+	      <a href="https://in.linkedin.com/in/chaitanyamanem">Chaitanya Manem</a>,
+	      <a href="https://scholar.google.com/citations?user=xwy6Va4AAAAJ&hl=zh-TW">Yusheng Su</a>,
+	      <a href="https://scholar.google.com/citations?user=zWczHdgAAAAJ&hl=en">Pratik Prabhanjan Brahma</a>,
+	      <a href="https://scholar.google.com/citations?user=VDb6XokAAAAJ&hl=en">Gowtham Ramesh</a>,
+	      Peng Sun,
+	      <a href="https://cs-people.bu.edu/sunxm/">Ximeng Sun</a>,
+	      <a href="https://scholar.google.com/citations?user=80Jw_w8AAAAJ&hl=en">Ze Wang</a>,
+	      <a href="https://scholar.google.com/citations?user=bX1YILcAAAAJ&hl=en">Emad Barsoum</a>
+        <br>
+	<font color="orange"><strong>AMD</strong></font>, <em>GenAI</em>
+        <br>
+        <a href="https://rocm.blogs.amd.com/artificial-intelligence/introducing-instella-3B/README.html">Blog</a>
+	/
+        <a href="https://huggingface.co/collections/amd/instella-67c8a2c56e9198c85a97dd08">Model Card</a>
+	/
+        <a href="https://github.com/AMD-AIG-AIMA/Instella">Code</a>
+        <p></p>
+        <p>
+          Announcing Instella, a series of 3 billion parameter language models developed by AMD, trained from scratch on 128 Instinct MI300X GPUs.
+        </p>
+      </td>
+    </tr>
     <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
