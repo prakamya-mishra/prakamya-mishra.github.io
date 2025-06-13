@@ -56,6 +56,93 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+     <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='resources/ttt_bench_main_performance (1).png' width=110%>
+        </div>
+        <script type="text/javascript">
+          function smerf_start() {
+            document.getElementById('smerf_image').style.opacity = "1";
+          }
+
+          function smerf_stop() {
+            document.getElementById('smerf_image').style.opacity = "0";
+          }
+          smerf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2506.10209">
+          <span class="papertitle">TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games</span>
+        </a>
+        <br>
+	      <strong>Prakamya Mishra*</strong>,
+	      <a href="https://scholar.google.com/citations?user=IbeXR9cAAAAJ&hl=en">Jiang Liu</a>,
+	      <a href="https://scholar.google.com/citations?user=6Abc8OgAAAAJ&hl=en">Jialian Wu</a>,
+	      <a href="https://scholar.google.com/citations?user=nmyIoRMAAAAJ&hl=en">Xiaodong Yu</a>
+	      <a href="https://scholar.google.com/citations?user=bkALdvsAAAAJ&hl=en">Zicheng Liu</a>,
+	      <a href="https://scholar.google.com/citations?user=bX1YILcAAAAJ&hl=en">Emad Barsoum</a>
+        <br>
+	<font color="orange"><strong>AMD</strong></font>, <em>GenAI</em>
+        <br>
+        <a href="https://arxiv.org/abs/2506.10209">Paper</a>
+	/
+        <a href="https://prakamya-mishra.github.io/TTTBench/">Website</a>
+	/
+        <a href="https://huggingface.co/datasets/amd/TTT-Bench">Dataset</a>
+        <p></p>
+        <p>
+          Introducing TTT-Bench, a new benchmark that is designed to evaluate basic reasoning abilities in LRMs through a suite of four two-player Tic-Tac-Toe-style games.
+        </p>
+      </td>
+    </tr>
+     <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='resources/Image_Instella_Long_Context.png' width=110%>
+        </div>
+        <script type="text/javascript">
+          function smerf_start() {
+            document.getElementById('smerf_image').style.opacity = "1";
+          }
+
+          function smerf_stop() {
+            document.getElementById('smerf_image').style.opacity = "0";
+          }
+          smerf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://rocm.blogs.amd.com/artificial-intelligence/instella-long-context/README.html">
+          <span class="papertitle">Introducing Instella-Long: A Fully Open Language Model with Long-Context Capability</span>
+        </a>
+        <br>
+	      <a href="https://scholar.google.com/citations?user=6Abc8OgAAAAJ&hl=en">Jialian Wu*</a>,
+	      <a href="https://scholar.google.com/citations?user=IbeXR9cAAAAJ&hl=en">Jiang Liu*</a>,
+	      <a href="https://scholar.google.com/citations?user=NC37bwwAAAAJ&hl=en">Sudhanshu Ranjan*</a>,
+	      <a href="https://scholar.google.com/citations?user=nmyIoRMAAAAJ&hl=en">Xiaodong Yu*</a>
+	      <a href="https://scholar.google.com/citations?user=VDb6XokAAAAJ&hl=en">Gowtham Ramesh</a>,
+    	      <strong>Prakamya Mishra*</strong>,
+	      <a href="https://scholar.google.com/citations?user=bkALdvsAAAAJ&hl=en">Zicheng Liu*</a>,
+	      <a href="https://scholar.google.com/citations?user=xwy6Va4AAAAJ&hl=zh-TW">Yusheng Su</a>,
+	      <a href="https://cs-people.bu.edu/sunxm/">Ximeng Sun</a>,
+	      <a href="https://scholar.google.com/citations?user=80Jw_w8AAAAJ&hl=en">Ze Wang</a>,
+	      <a href="https://scholar.google.com/citations?user=bX1YILcAAAAJ&hl=en">Emad Barsoum</a>
+        <br>
+	<font color="orange"><strong>AMD</strong></font>, <em>GenAI</em>
+        <br>
+        <a href="https://rocm.blogs.amd.com/artificial-intelligence/instella-long-context/README.html">Blog</a>
+	/
+        <a href="https://huggingface.co/amd/Instella-3B-Long-Instruct">Model Card</a>
+	/
+        <a href="https://github.com/AMD-AIG-AIMA/Instella/tree/instella-long">Code</a>
+        <p></p>
+        <p>
+          Announcing Instella-Long, a long-context language model continually trained from Instella-3B-Instruct on AMD Instinct™ MI300X GPUs.
+        </p>
+      </td>
+    </tr>
     <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -104,7 +191,7 @@
         </p>
       </td>
     </tr>
-    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" bgcolor="#ffffd0">
+    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <img src='resources/amd_olmo.jpg' width=110%>
@@ -189,7 +276,7 @@
         </p>
       </td>
     </tr>
-    <tr onmouseout="recon_stop()" onmouseover="recon_stopt()">
+    <tr onmouseout="recon_stop()" onmouseover="recon_stopt()" bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <img src='resources/Cluster-based-sampling.png' width="110%">
